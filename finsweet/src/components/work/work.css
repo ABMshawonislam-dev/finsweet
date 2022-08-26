@@ -1,0 +1,40 @@
+.work {
+  margin-top: 128px;
+}
+
+.work .box {
+  display: flex;
+}
+
+.work .left {
+  width: 40%;
+}
+
+.work .right {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.work .right .worklist {
+  width: 49%;
+  margin-bottom: 48px;
+}
+
+.work .right .worklist h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #1b1c2b;
+  margin-top: 16px;
+}
+
+.work .right .worklist p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1b1c2b;
+  width: 303px;
+  margin-top: 8px;
+}

@@ -1,0 +1,60 @@
+.banner {
+  padding: 126px 0;
+  background: #1c1e53;
+}
+
+.banner .box {
+  display: flex;
+}
+
+.banner .text {
+  width: 50%;
+}
+
+.banner .text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  color: #fff;
+}
+
+.banner .text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
+  width: 562px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.banner .text .work {
+  display: inline-block;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1b1c2b;
+  background: #fcd980;
+  padding: 16px 56px;
+  border-radius: 41px;
+}
+
+.banner .text .pricing {
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 40px;
+}
+
+.banner .text .pricing i {
+  margin-left: 16px;
+}
+
+.banner .img {
+  width: 50%;
+  margin-top: 26px;
+}
