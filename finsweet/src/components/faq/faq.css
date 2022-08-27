@@ -1,0 +1,15 @@
+.faq {
+  margin-top: 128px;
+}
+
+.faq .box {
+  display: flex;
+}
+
+.faq .left {
+  width: 40%;
+}
+
+.faq .right {
+  width: 60%;
+}
