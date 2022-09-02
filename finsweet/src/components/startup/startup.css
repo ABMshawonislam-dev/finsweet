@@ -1,0 +1,103 @@
+.startup {
+  margin-top: 128px;
+}
+
+.startup .box {
+  display: flex;
+}
+
+.startup .img {
+  width: 50%;
+  position: relative;
+}
+
+.startup .img img {
+  width: 100%;
+  display: block;
+}
+
+.startup .img .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(28, 30, 83, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 96px;
+  box-sizing: border-box;
+}
+
+.startup .img .overlay h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 74px;
+}
+
+.startup .img .overlay p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+.startup .text {
+  width: 50%;
+  background: #1c1e53;
+  padding: 96px;
+  box-sizing: border-box;
+}
+
+.startup .text h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 48px;
+}
+
+.startup .text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 28px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.startup .text input {
+  width: 100%;
+  background: transparent;
+  padding: 18px 32px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.startup .text input::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #acaeb4;
+}
+
+.startup .text input:focus {
+  outline: 0;
+}
+
+.startup .text button {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  padding: 16px 0;
+  border-radius: 41px;
+  background: #fcd980;
+  margin-top: 39px;
+}

@@ -1,0 +1,101 @@
+.pricing {
+  margin-top: 128px;
+}
+
+.pricing .box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing .item {
+  width: 32%;
+  background: #f4f6fc;
+  padding: 64px 48px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.pricing .item h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.pricing .item h2 span {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2405f2;
+}
+
+.pricing .item h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.pricing .item p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 78px;
+}
+
+.pricing .item ul {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.pricing .item ul li {
+  margin-bottom: 20px;
+}
+
+.pricing .btn {
+  text-align: center;
+}
+
+.pricing .btn a {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  padding: 16px 77px;
+  background: #000;
+  border-radius: 41px;
+  margin-top: 59px;
+}
+
+.pricing .round {
+  width: 1151px;
+  height: 1151px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  /* background: red; */
+  position: absolute;
+  top: -85%;
+  left: -86%;
+  z-index: -1;
+}
+
+.pricing .item:hover {
+  background: #1c1e53;
+  color: #fff;
+}
+
+.pricing .item:hover h2 span {
+  color: #fcd980;
+}
+
+.pricing .item:hover .btn a {
+  background: #fcd980;
+  color: #000;
+}
